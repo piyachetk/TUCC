@@ -25,6 +25,10 @@ Route::get('/confirm/old', function () {
 
 Route::post('/confirm/old', 'MemberController@confirmOld');
 
+/*
+ * For final announcement at Sat 19th May 2018
+ *
+
 Route::get('/announce/new', function () {
     return view('announceNew');
 });
@@ -34,3 +38,5 @@ Route::get('/confirm/new', function () {
 });
 
 Route::post('/confirm/new', 'MemberController@confirmNew');
+
+*/
