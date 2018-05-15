@@ -63,22 +63,7 @@
             </div>
             <div class="col s12 l4 center">
                 <h4>ติดตาม <i class="material-icons">public</i></h4>
-                <div class="fb-page fb_iframe_widget" data-href="https://www.facebook.com/triamudom.tucc/"
-                     data-hide-cover="false" data-show-facepile="true" data-show-posts="false" fb-xfbml-state="rendered"
-                     fb-iframe-plugin-query="app_id=1202760429830785&amp;container_width=354&amp;hide_cover=false&amp;href=https%3A%2F%2Fwww.facebook.com%2Ftriamudom.tucc%2F&amp;locale=en_US&amp;sdk=joey&amp;show_facepile=true&amp;show_posts=false">
-                    <span style="vertical-align: bottom; width: 340px; height: 214px;"><iframe name="f1e665ccf9cef0c"
-                                                                                               allowtransparency="true"
-                                                                                               allowfullscreen="true"
-                                                                                               scrolling="no"
-                                                                                               allow="encrypted-media"
-                                                                                               title="fb:page Facebook Social Plugin"
-                                                                                               style="border: medium none; visibility: visible; width: 340px; height: 214px;"
-                                                                                               src="https://www.facebook.com/v2.9/plugins/page.php?app_id=1202760429830785&amp;channel=https%3A%2F%2Fstaticxx.facebook.com%2Fconnect%2Fxd_arbiter%2Fr%2FRQ7NiRXMcYA.js%3Fversion%3D42%23cb%3Df337c531e93b60a%26domain%3Dkeendev.net%26origin%3Dhttps%253A%252F%252Fkeendev.net%252Ff20172e3f665b3%26relation%3Dparent.parent&amp;container_width=354&amp;hide_cover=false&amp;href=https%3A%2F%2Fwww.facebook.com%2Ftriamudom.tucc%2F&amp;locale=en_US&amp;sdk=joey&amp;show_facepile=true&amp;show_posts=false"
-                                                                                               class="" width="1000px"
-                                                                                               height="1000px"
-                                                                                               frameborder="0"></iframe></span>
-                </div>
-            </div>
+                <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Ftriamudom.tucc%2F&tabs=timeline&width=354&height=220&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=376542346061829" width="354" height="220" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>            </div>
         </div>
     </div>
 @endsection

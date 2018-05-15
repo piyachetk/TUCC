@@ -672,20 +672,6 @@
     </div>
 </div>
 
-<script id="facebook-jssdk"
-        src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&amp;version=v2.9&amp;appId=1202760429830785">
-</script>
-
-<script>(function (d, s, id) {
-        var js, fjs = d.getElementsByTagName(s)[0];
-        if (d.getElementById(id)) return;
-        js = d.createElement(s);
-        js.id = id;
-        js.src = "https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.9&appId=1202760429830785";
-        fjs.parentNode.insertBefore(js, fjs);
-    }(document, 'script', 'facebook-jssdk'));
-</script>
-
 <div class="navbar-fixed grey darken-3">
     <nav class="grey darken-3"
          style="box-shadow: rgba(0, 0, 0, 0.16) 0px 2px 5px 0px, rgba(0, 0, 0, 0.12) 0px 2px 10px 0px;">
