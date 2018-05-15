@@ -34,8 +34,8 @@ return [
     'date'                 => 'ข้อมูล :attribute ต้องเป็นวันที่',
     'date_format'          => 'ข้อมูล :attribute ไม่ตรงกับข้อมูลกำหนด :format.',
     'different'            => 'ข้อมูล :attribute และ :other ต้องไม่เท่ากัน',
-    'digits'               => 'ข้อมูล :attribute ต้องเป็น :digits',
-    'digits_between'       => 'ข้อมูล :attribute ต้องอยู่ในช่วงระหว่าง :min ถึง :max',
+    'digits'               => 'ข้อมูล :attribute ต้องมี :digits หลัก',
+    'digits_between'       => 'ข้อมูล :attribute ต้องมีหน่วยในช่วงระหว่าง :min ถึง :max',
     'dimensions'           => 'The :attribute has invalid image dimensions.',
     'distinct'             => 'ข้อมูล :attribute มีค่าที่ซ้ำกัน',
     'email'                => 'ข้อมูล :attribute ต้องเป็นอีเมล์',
@@ -136,7 +136,10 @@ return [
         'prefix' => 'คำนำหน้าชื่อ',
         'student_id' => 'รหัสนักเรียน',
         'citizen_id' => 'รหัสประจำตัวประชาชน',
-        'file' => 'เอกสาร'
+        'file' => 'เอกสาร',
+        'id' => 'รหัสประจำตัวนักเรียน',
+        'class' => 'ห้องเรียนปัจจุบัน',
+        'number' => 'เลขที่ในห้องเรียนปัจจุบัน'
     ],
 
 ];

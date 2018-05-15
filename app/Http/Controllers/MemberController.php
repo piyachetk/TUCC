@@ -10,7 +10,9 @@ class MemberController extends Controller
     public function confirmOld(Request $request)
     {
         $this->validate($request, [
-            'id' => 'required|numeric'
+            'id' => 'required|integer|digits:5',
+            'class' => 'required|integer|digits_between:1,4',
+            'number' => 'required|integer|digits_between:1,3'
         ]);
 
         $id = $request->get('id');
@@ -25,18 +27,20 @@ class MemberController extends Controller
             }
 
             $member->status = "CONFIRMED";
+            $member->class = $request->get('class');
+            $member->number = $request->get('number');
             $member->save();
 
             return view('confirmed', ['member' => $member->toArray()]);
         }
 
-        return response()->view('errors.custom', ['title' => 'Invalid Student ID', 'subtitle' => 'Invalid Student ID', 'description' => 'รหัสนักเรียนไม่ถูกต้อง']);
+        return redirect()->back()->withErrors(['id' => 'รหัสนักเรียนไม่ถูกต้อง']);
     }
 
     public function confirmNew(Request $request)
     {
         $this->validate($request, [
-            'id' => 'required|numeric'
+            'id' => 'required|integer|digits:5'
         ]);
 
         $id = $request->get('id');
@@ -56,6 +60,6 @@ class MemberController extends Controller
             return view('confirmed', ['member' => $member->toArray()]);
         }
 
-        return response()->view('errors.custom', ['title' => 'Invalid Student ID', 'subtitle' => 'Invalid Student ID', 'description' => 'รหัสนักเรียนไม่ถูกต้อง']);
+        return redirect()->back()->withErrors(['id' => 'รหัสนักเรียนไม่ถูกต้อง']);
     }
 }

@@ -15,12 +15,12 @@ class CreateMembersTable extends Migration
     {
         Schema::create('members', function (Blueprint $table) {
             $table->string('id')->unique();
-            $table->enum('prefix', ['นาย', 'นางสาว', 'นาง', 'เด็กชาย', 'เด็กหญิง']);
+            $table->enum('prefix', ['นาย', 'นางสาว', 'นาง', 'เด็กชาย', 'เด็กหญิง'])->nullable();
             $table->string('firstName');
             $table->string('lastName');
             $table->enum('level', ['ม.4', 'ม.5', 'ม.6']);
-            $table->unsignedInteger('class');
-            $table->unsignedInteger('number');
+            $table->unsignedInteger('class')->nullable();
+            $table->unsignedInteger('number')->nullable();
             $table->enum('status', ['OLD', 'FAILED', 'PASSED', 'CONFIRMED']);
 
             $table->timestamps();

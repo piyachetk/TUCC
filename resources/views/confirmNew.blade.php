@@ -1,7 +1,11 @@
 @extends('layouts.master', ['title' => 'ระบบการยืนยันสิทธิ์ของนักเรียนที่ผ่านการคัดเลือก ชมรมคอมพิวเตอร์ ประจำปีการศึกษา 2561'])
 
+@section('body-class')
+    grey darken-2
+@endsection
+
 @section('main')
-    <div class="z-depth-1 card-panel" style="margin:auto">
+    <div class="z-depth-1 card-panel" style="margin-bottom:16px">
         <h4>ระบบการยืนยันสิทธิ์ของ<span class="blue-text">นักเรียนที่ผ่านการคัดเลือก</span> ชมรมคอมพิวเตอร์ ประจำปีการศึกษา 2561</h4>
         <form method="POST" action="/confirm/new">
             {{ csrf_field() }}
