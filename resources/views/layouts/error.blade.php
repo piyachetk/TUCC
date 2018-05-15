@@ -72,6 +72,7 @@
         <div class="nav-wrapper container " style="font-size: 1.7rem !important; font-family: 'Roboto', sans-serif; font-weight: 600; line-height: 64px; box-sizing: inherit; white-space: nowrap;">
             <a href="/" class="brand-logo hide-on-small-only"><span
                         class="pink-text text-accent-2">TRIAM UDOM</span> COMPUTER CLUB</a>
+            <a href="/" class="brand-logo hide-on-med-and-up"><span class="pink-text">TU</span> COMPUTER CLUB</a>
         </div>
     </nav>
 </div>

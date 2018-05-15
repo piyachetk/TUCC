@@ -693,7 +693,7 @@
             <a href="/" class="brand-logo hide-on-small-only" {{ Route::current()->getName() == 'index' ? 'style="display: none;"' : '' }}><span
                         class="pink-text text-accent-2">TRIAM UDOM</span> COMPUTER CLUB</a>
             <a href="/" class="brand-logo hide-on-med-and-up" {{ Route::current()->getName() == 'index' ? 'style="display: none;"' : '' }}>
-                <!--img src="https://clubs.triamudom.ac.th/phrakiao.png" style="height:1.8rem"/-->TU COMPUTER CLUB</a>
+                <!--img src="https://clubs.triamudom.ac.th/phrakiao.png" style="height:1.8rem"/--><span class="pink-text">TU</span> COMPUTER CLUB</a>
             <!--ul class="right hide-on-med-and-down navul">
                 <li><a href="/">หน้าหลัก</a></li>
             </ul>
