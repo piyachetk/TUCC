@@ -1,4 +1,4 @@
-@extends('layouts.master', ['title' => 'ระบบการยืนยันสิทธิ์ของนักเรียนที่มีสิทธิ์ลงทะเบียนชมรมเดิม ชมรมคอมพิวเตอร์ ประจำปีการศึกษา 2561'])
+@extends('layouts.master', ['title' => 'ระบบการยืนยันสิทธิ์ของนักเรียนที่มีสิทธิ์ลงทะเบียนชมรมเดิม ประจำปีการศึกษา 2561'])
 
 @section('body-class')
     grey darken-2
@@ -6,7 +6,7 @@
 
 @section('main')
     <div class="z-depth-1 card-panel" style="margin-bottom:16px">
-        <h4>ระบบการยืนยันสิทธิ์ของ<span class="blue-text">นักเรียนที่มีสิทธิ์ลงทะเบียนชมรมเดิม</span> ชมรมคอมพิวเตอร์ ประจำปีการศึกษา 2561</h4>
+        <h4>ระบบการยืนยันสิทธิ์ของ<span class="blue-text">นักเรียนที่มีสิทธิ์ลงทะเบียนชมรมเดิม</span> ประจำปีการศึกษา 2561</h4>
         <form method="POST" action="/confirm/old">
             {{ csrf_field() }}
 
