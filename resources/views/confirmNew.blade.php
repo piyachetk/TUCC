@@ -13,12 +13,27 @@
             <div class="row">
 
                 <div class="input-field col s12">
-                    <input name="id" id="id" type="text" class="validate" value="{{ old('id') }}" required/>
-                    <label for="id">รหัสประจำตัวนักเรียน</label>
+                    <input name="class" id="class" type="text" class="validate" value="{{ old('class') }}" required/>
+                    <label for="class">ห้องเรียน</label>
 
-                    @if ($errors->has('id'))
+                    @if ($errors->has('class'))
                         <span class="help-block">
-                            <strong>{{ $errors->first('id') }}</strong>
+                            <strong>{{ $errors->first('class') }}</strong>
+                            <br/>
+                        </span>
+                    @endif
+                </div>
+            </div>
+
+            <div class="row">
+
+                <div class="input-field col s12">
+                    <input name="number" id="number" type="text" class="validate" value="{{ old('number') }}" required/>
+                    <label for="number">เลขที่ในห้องเรียน</label>
+
+                    @if ($errors->has('number'))
+                        <span class="help-block">
+                            <strong>{{ $errors->first('number') }}</strong>
                             <br/>
                         </span>
                     @endif

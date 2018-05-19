@@ -22,7 +22,7 @@ class MemberController extends Controller
             if ($member->status == "CONFIRMED"){
                 return response()->view('errors.custom', ['title' => 'Already is a Member', 'subtitle' => 'Already is a Member', 'description' => 'ได้รับการยืนยันแล้ว']);
             }
-            else if ($member->status == "PASSED" || $member->status == "FAILED"){
+            else if ($member->status == "PASSED"){
                 return response()->view('errors.custom', ['title' => 'Unprivileged', 'subtitle' => 'Unprivileged', 'description' => 'ไม่มีสิทธิ์ลงทะเบียนชมรมเดิม']);
             }
 
@@ -40,17 +40,19 @@ class MemberController extends Controller
     public function confirmNew(Request $request)
     {
         $this->validate($request, [
-            'id' => 'required|integer|digits:5'
+            'class' => 'required|integer|digits_between:2,3',
+            'number' => 'required|integer|digits_between:1,2'
         ]);
 
-        $id = $request->get('id');
+        $class = $request->get('class');
+        $number = $request->get('number');
 
-        if ($member = Member::where('id', $id)->first())
+        if ($member = Member::where('class', $class)->where('number', $number)->first())
         {
             if ($member->status == "CONFIRMED"){
                 return response()->view('errors.custom', ['title' => 'Already is a Member', 'subtitle' => 'Already is a Member', 'description' => 'ได้รับการยืนยันแล้ว']);
             }
-            else if ($member->status == "OLD" || $member->status == "FAILED"){
+            else if ($member->status == "OLD"){
                 return response()->view('errors.custom', ['title' => 'Unprivileged', 'subtitle' => 'Unprivileged', 'description' => 'ไม่มีสิทธิ์ยืนยันการคัดเลือก']);
             }
 
@@ -60,6 +62,6 @@ class MemberController extends Controller
             return view('confirmed', ['member' => $member->toArray()]);
         }
 
-        return redirect()->back()->withErrors(['id' => 'รหัสนักเรียนไม่ถูกต้อง']);
+        return redirect()->back()->withErrors(['class' => 'ไม่พบนักเรียน']);
     }
 }

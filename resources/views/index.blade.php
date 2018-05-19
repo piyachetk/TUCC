@@ -19,11 +19,12 @@
     <br>
 
     <div class="center-align">
-        <h4>ชมรมคอมพิวเตอร์เปิดรับคัดเลือกนักเรียน ปีการศึกษา <span class="pink-text">2561</span></h4>
+        <!--h4>ชมรมคอมพิวเตอร์เปิดรับคัดเลือกนักเรียน ปีการศึกษา <span class="pink-text">2561</span></h4>
         <h5>16-17 พฤษภาคม 2561<br>เวลาประมาณ 16.10 - 17.00 น.</h5>
-        <p style="font-size:1.4rem">ณ ห้องปฏิบัติการคอมพิวเตอร์ 1 ตึก 9 ชั้น 1</p>
-        <p style="font-size:1rem">ขณะเดียวกัน สมาชิกเก่าสามารถใช้สิทธิ์ลงทะเบียนชมรมเดิมได้ภายในวันที่ 17 พฤษภาคม 2561 เวลา 17.00 น.</p>
-        <a href="/announce/old" class="waves-effect waves-light btn blue fullwidth">ลงทะเบียนชมรมเดิมสำหรับสมาชิกเก่า</a>
+        <p style="font-size:1.4rem">ณ ห้องปฏิบัติการคอมพิวเตอร์ 1 ตึก 9 ชั้น 1</p-->
+        <h4>ชมรมคอมพิวเตอร์เปิดรับคัดเลือกนักเรียน ปีการศึกษา <span class="pink-text">2561</span></h4>
+        <h5>นักเรียนที่ผ่านการคัดเลือกจะต้องยืนยันการเป็นสมาชิกชมรมภายใน <span class="pink-text">20</span> พฤษภาคม 2561 เวลา <span class="pink-text">17.00</span> น.</h5>
+        <a href="/announce/new" class="waves-effect waves-light btn blue fullwidth">ยืนยันการเป็นสมาชิกชมรม</a>
     </div>
     <div class="divider"></div>
 

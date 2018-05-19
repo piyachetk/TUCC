@@ -21,7 +21,7 @@ class CreateMembersTable extends Migration
             $table->enum('level', ['ม.4', 'ม.5', 'ม.6']);
             $table->unsignedInteger('class')->nullable();
             $table->unsignedInteger('number')->nullable();
-            $table->enum('status', ['OLD', 'FAILED', 'PASSED', 'CONFIRMED']);
+            $table->enum('status', ['OLD', 'PASSED', 'CONFIRMED']);
 
             $table->timestamps();
         });
