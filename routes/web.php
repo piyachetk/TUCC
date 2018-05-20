@@ -27,8 +27,6 @@ Route::get('/confirm/old', function () {
 
 Route::post('/confirm/old', 'MemberController@confirmOld');
 
-*/
-
 Route::get('/announce/new', function () {
     return view('announceNew');
 });
@@ -38,3 +36,5 @@ Route::get('/confirm/new', function () {
 });
 
 Route::post('/confirm/new', 'MemberController@confirmNew');
+
+*/
