@@ -24,7 +24,7 @@
         <p style="font-size:1.4rem">ณ ห้องปฏิบัติการคอมพิวเตอร์ 1 ตึก 9 ชั้น 1</p-->
         <h4>ชมรมคอมพิวเตอร์เปิดรับคัดเลือกนักเรียน ปีการศึกษา <span class="pink-text">2561</span></h4>
         <h5>นักเรียนที่ผ่านการคัดเลือกจะต้องยืนยันการเป็นสมาชิกชมรมภายใน <span class="pink-text">20</span> พฤษภาคม 2561 เวลา <span class="pink-text">17.00</span> น.</h5>
-        <a href="/announce/new" class="waves-effect waves-light btn blue fullwidth">ยืนยันการเป็นสมาชิกชมรม</a>
+        <a href="/announce/new" class="waves-effect waves-light btn blue fullwidth disabled">ยืนยันการเป็นสมาชิกชมรม</a>
     </div>
     <div class="divider"></div>
 
