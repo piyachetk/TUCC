@@ -22,9 +22,8 @@
         <!--h4>ชมรมคอมพิวเตอร์เปิดรับคัดเลือกนักเรียน ปีการศึกษา <span class="pink-text">2561</span></h4>
         <h5>16-17 พฤษภาคม 2561<br>เวลาประมาณ 16.10 - 17.00 น.</h5>
         <p style="font-size:1.4rem">ณ ห้องปฏิบัติการคอมพิวเตอร์ 1 ตึก 9 ชั้น 1</p-->
-        <h4>ชมรมคอมพิวเตอร์เปิดรับคัดเลือกนักเรียน ปีการศึกษา <span class="pink-text">2561</span></h4>
-        <h5>นักเรียนที่ผ่านการคัดเลือกจะต้องยืนยันการเป็นสมาชิกชมรมภายใน <span class="pink-text">20</span> พฤษภาคม 2561 เวลา <span class="pink-text">17.00</span> น.</h5>
-        <a href="/announce/new" class="waves-effect waves-light btn blue fullwidth disabled">ยืนยันการเป็นสมาชิกชมรม</a>
+        <h5>ประกาศผลการแข่งขันความรู้ทั่วไปเกี่ยวกับคอมพิวเตอร์และเทคโนโลยีภายในโรงเรียน ประจำปีการศึกษา <span class="pink-text">2561</span></h5>
+        <a href="/it_quiz.pdf" class="waves-effect waves-light btn blue fullwidth">ดาวน์โหลดไฟล์ผลการแข่งขัน</a>
     </div>
     <div class="divider"></div>
 
